@@ -2,9 +2,10 @@
   nav {
     ul {
       li {
-        a {
+        a, a:hover {
           background: transparent;
-          @include button($background-color: transparent, $border-radius: 2px);
+          text-transform: uppercase;
+          //@include button($background-color: transparent, $border-radius: 2px);
         }
       }
     }
