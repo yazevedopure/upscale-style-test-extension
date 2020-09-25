@@ -1,0 +1,13 @@
+:host {
+  background-color: transparent;
+  box-shadow: none;
+
+
+  .browse-category-name {
+    color: $primary_color;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

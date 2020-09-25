@@ -1,0 +1,8 @@
+@import "src/styles/style";
+
+:host {
+  .image-component-overlay {
+    color: $primary_color;
+    background: $primary_light_color;
+  }
+}
