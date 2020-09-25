@@ -1,5 +1,8 @@
 {
   "name": "upscale-style-test-extension",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "postinstall" : "node scripts/install.js"
+  }
 }
