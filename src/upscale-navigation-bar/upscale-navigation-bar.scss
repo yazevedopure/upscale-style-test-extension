@@ -1,9 +1,13 @@
-nav {
-  ul {
-    li {
-      a {
-        background: transparent;
+:host {
+  nav {
+    ul {
+      li {
+        a {
+          background: transparent;
+          @include button($background-color: transparent, $border-radius: 2px);
+        }
       }
     }
   }
+
 }
