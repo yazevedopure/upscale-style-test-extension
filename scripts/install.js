@@ -23,6 +23,7 @@ const component_copy = (cmp) => {
                 path.join(cmp_path, f),
                 scss_file
             )
+            console.log(`${f}`);
         }
     })
 }

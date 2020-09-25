@@ -1,6 +1,13 @@
 @import '../styles/style';
 
-#upscale .image-component-content-headline {
-  color: $primary_color;
-  background: $primary_light_color;
+#upscale {
+
+  .image-component-overlay {
+    background: $primary_light_color;
+  }
+
+  .image-component-content-headline {
+    color: $primary_color;
+  }
+
 }
