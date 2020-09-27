@@ -1,9 +1,12 @@
-:host {
-  ngx-slick {
-    .slick-arrow {
-      border-radius: 0;
-    }
+:host ngx-slick::ng-deep {
+
+  .slick-arrow {
+    border-radius: 0;
   }
+
+}
+
+.carousel-container {
 
   .progress-bar {
     display: none;
