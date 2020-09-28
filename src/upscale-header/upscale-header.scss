@@ -1,5 +1,6 @@
 @import '../styles/style';
 :host {
+	position: static;
 	background: $primary_color;
 }
 

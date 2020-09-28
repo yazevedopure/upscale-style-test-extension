@@ -1,4 +1,11 @@
+@import '../styles/style';
 :host {
   background-color: transparent;
   border-bottom: 0;
+  color: $primary_color;
+
+  a {
+    color: inherit;
+    font-weight: bold;
+  }
 }
