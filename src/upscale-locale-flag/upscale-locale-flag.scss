@@ -1,0 +1,8 @@
+$flag-size: 16px;
+:host {
+  .flag {
+    width: $flag-size;
+    height: $flag-size;
+    background-size: $flag-size;
+  }
+}
