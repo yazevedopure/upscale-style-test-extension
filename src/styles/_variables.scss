@@ -1,3 +1,18 @@
-$primary_color: #005c7b;
+//https://coolors.co/ee6352-005c7b-59cd90-f7a072-ff9b42
+
+/* SCSS HEX */
+$fire-opal: #ee6352;
+$blue-sapphire: #005c7b;
+$emerald: #59cd90;
+$light-salmon: #f7a072;
+$deep-saffron: #ff9b42;
+
+
+$primary_color: $blue-sapphire;
 $primary_light_color: #d5ecf5;
 $primary_darker_color: #043a4c;
+
+$price-color: $emerald;
+$checkout-color: $emerald;
+
+$action-color: $deep-saffron;
