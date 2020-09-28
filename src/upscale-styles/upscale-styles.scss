@@ -28,6 +28,11 @@ body {
   //font-family: 'Gotham';
 }
 
+.selling-price {
+  font-weight: bold;
+  color: $price-color;
+}
+
 #upscale {
   .storybook-add-to-cart-button {
     background: $action-color;
