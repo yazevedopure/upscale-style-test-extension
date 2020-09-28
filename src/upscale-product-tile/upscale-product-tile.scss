@@ -9,11 +9,6 @@
 
   .name {
     color: $primary_color;
-    text-transform: lowercase;
-
-    &::first-letter {
-      text-transform: uppercase;
-    }
   }
 
 }
