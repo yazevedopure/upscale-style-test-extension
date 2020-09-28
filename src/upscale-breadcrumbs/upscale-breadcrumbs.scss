@@ -1,11 +1,12 @@
 @import '../styles/style';
 :host {
-  background-color: transparent;
+  background-color: #d5ecf5;
   border-bottom: 0;
   color: $primary_color;
 
-  a {
+  .breadcrumbs__link {
     color: inherit;
     font-weight: bold;
   }
+
 }
