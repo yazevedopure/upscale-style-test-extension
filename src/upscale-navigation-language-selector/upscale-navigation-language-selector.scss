@@ -1,0 +1,17 @@
+@import '../styles/style';
+
+:host {
+
+  .languages {
+
+    background-color: $primary_darker_color;
+    border-color: $primary_darker_color;
+    height: auto;
+
+    .language {
+      background: transparent;
+      border: 0;
+    }
+  }
+
+}
