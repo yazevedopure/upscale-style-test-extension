@@ -1,6 +1,12 @@
 @import '../styles/style';
 :host {
 
+  a {
+    &:visited {
+      color: $primary-color;
+    }
+  }
+
   .name {
     color: $primary_color;
   }

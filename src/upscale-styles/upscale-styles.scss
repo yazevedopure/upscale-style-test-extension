@@ -29,17 +29,31 @@ body {
 }
 
 .selling-price {
-  font-weight: bold;
-  color: $price-color;
+  @include price();
 }
 
 #upscale {
+
+  .browse-sale-price {
+    @include price();
+    margin: .5em auto;
+  }
+
+  .pdp-sale-price-text {
+    @include price();
+  }
+
   .storybook-add-to-cart-button {
     background: $action-color;
 
     &:focus {
       outline-color: lighten($action-color, 10%);
     }
+  }
+
+  .storybook-article-link-text-button {
+    background-color: $primary_color;
+    color: #FFFFFF;
   }
 }
 

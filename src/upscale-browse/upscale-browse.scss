@@ -1,0 +1,27 @@
+@import '../styles/style';
+
+:host {
+
+  color: $primary_color;
+
+  .breadcrumb {
+    font-weight: bold;
+    display: none;
+
+    &.inserted {
+      font-weight: normal;
+    }
+
+  }
+
+  .name {
+    color: $price-color;
+    text-transform: lowercase;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
+  }
+
+}

@@ -1,3 +1,5 @@
-@mixin btn_bg ($background, $color: "") {
-  background-color: $background;
+@import '../styles/style';
+@mixin price () {
+  color: $price-color;
+  font-weight: bold;
 }
