@@ -1,31 +1,31 @@
 @import '../styles/style';
-//@font-face {
-//  font-family: 'Gotham';
-//  src: url('https://www.cotoneve.it/fonts/gotham.eot');
-//  /* IE9 Compat Modes */
-//  src: url('https://www.cotoneve.it/fonts/gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-//  url('https://www.cotoneve.it/fonts/gotham.woff2') format('woff2'), /* Super Modern Browsers */
-//  url('https://www.cotoneve.it/fonts/gotham.woff') format('woff'), /* Pretty Modern Browsers */
-//  url('https://www.cotoneve.it/fonts/gotham.ttf') format('truetype'), /* Safari, Android, iOS */
-//  url('https://www.cotoneve.it/fonts/gotham.svg#svgFontName') format('svg');
-//  /* Legacy iOS */
-//}
-//@font-face {
-//  font-family: 'Gotham';
-//  src: url('https://www.cotoneve.it/fonts/GothamBold.eot');
-//  /* IE9 Compat Modes */
-//  src: url('https://www.cotoneve.it/fonts/GothamBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-//  url('https://www.cotoneve.it/fonts/GothamBold.woff2') format('woff2'), /* Super Modern Browsers */
-//  url('https://www.cotoneve.it/fonts/GothamBold.woff') format('woff'), /* Pretty Modern Browsers */
-//  url('https://www.cotoneve.it/fonts/GothamBold.ttf') format('truetype'), /* Safari, Android, iOS */
-//  url('https://www.cotoneve.it/fonts/GothamBold.svg#svgFontName') format('svg');
-//  /* Legacy iOS */
-//  font-weight:normal
-//}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/gotham.eot');
+  /* IE9 Compat Modes */
+  src: url('../../fonts/gotham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../fonts/gotham.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../fonts/gotham.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../fonts/gotham.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../../fonts/gotham.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/GothamBold.eot');
+  /* IE9 Compat Modes */
+  src: url('../../fonts/GothamBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../fonts/GothamBold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../../fonts/GothamBold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../../fonts/GothamBold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../../fonts/GothamBold.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight:normal
+}
 
 body {
   background: #FFFFFF;
-  //font-family: 'Gotham';
+  font-family: 'Gotham';
 }
 
 .selling-price {
