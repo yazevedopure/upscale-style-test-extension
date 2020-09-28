@@ -34,7 +34,7 @@ body {
 
 #upscale {
 
-  .browse-sale-price {
+  .selling-price.browse-sale-price {
     @include price();
     margin: .5em auto;
   }
