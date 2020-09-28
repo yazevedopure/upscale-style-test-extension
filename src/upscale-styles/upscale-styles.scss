@@ -45,6 +45,19 @@ body {
 
 .sisma-footer {
   color: #FFFFFF;
+  display: flex;
+
+  .sisma-footer-info {
+    flex-grow:1;
+  }
+
+  .sisma-footer-socials {
+    flex-grow: 0;
+
+    a {
+      filter: brightness(0) invert(1);
+    }
+  }
 
   a {
     color: inherit;
