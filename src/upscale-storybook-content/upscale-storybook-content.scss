@@ -1,5 +1,18 @@
 @import '../styles/style';
 
+@mixin headline () {
+  color: $primary_color;
+  font-family: Gotham;
+  font-weight: bold;
+  padding: .5em 0;
+  text-align: center;
+}
+
+@mixin headline_bg () {
+  background-color: rgba(255, 255, 255, .8);
+  padding:0;
+}
+
 :host {
   background-color: #FFFFFF;
 }
@@ -9,26 +22,26 @@
   font-family: Gotham;
 
   .storybook-article-link-text-button {
+    font-family: Gotham;
     background-color: $primary_color;
     color: #FFFFFF;
     font-weight: 900;
   }
 
   .storybook-product-content-background-overlay {
-    background-color: rgba(255, 255, 255, .8);
-    padding:0;
+    @include headline_bg();
   }
 
   .storybook-product-content-name {
-    background-color: $primary_color;
-    font-weight: bold;
-    padding: .5em 0;
+    @include headline();
+  }
+
+  .storybook-article-content-background-overlay {
+    @include headline_bg();
   }
 
   .storybook-article-headline {
-    color: $price-color;
-    background-color: rgba(255, 255, 255, .8);
-    padding: .5em 0;
+    @include headline();
   }
 
 }
