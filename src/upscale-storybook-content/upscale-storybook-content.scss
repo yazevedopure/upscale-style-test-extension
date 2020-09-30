@@ -31,7 +31,7 @@
     @include headline_bg();
   }
 
-  .storybook-product-content-name {
+  .storybook-product-content-name, .storybook-product-content-headline {
     @include headline();
   }
 
