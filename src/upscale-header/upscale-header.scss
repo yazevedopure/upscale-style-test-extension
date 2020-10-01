@@ -1,8 +1,7 @@
 @import '../styles/style';
 :host {
 	position: static;
-	background: #900;
-	//background: $primary_color;
+	background: $primary_color;
 	box-shadow: none;
 }
 
