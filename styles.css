@@ -1,0 +1,55 @@
+/* SCSS HEX */
+@font-face {
+  font-family: 'Gotham';
+  src: url("../../fonts/gotham.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/gotham.eot?#iefix") format("embedded-opentype"), url("../../fonts/gotham.woff2") format("woff2"), url("../../fonts/gotham.woff") format("woff"), url("../../fonts/gotham.ttf") format("truetype"), url("../../fonts/gotham.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../../fonts/GothamBold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/GothamBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamBold.woff2") format("woff2"), url("../../fonts/GothamBold.woff") format("woff"), url("../../fonts/GothamBold.ttf") format("truetype"), url("../../fonts/GothamBold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: normal; }
+
+body {
+  background: #FFFFFF;
+  font-family: 'Gotham'; }
+
+.selling-price {
+  color: #59cd90;
+  font-weight: bold; }
+
+#upscale .selling-price.browse-sale-price {
+  color: #59cd90;
+  font-weight: bold;
+  margin: .5em auto; }
+
+#upscale .pdp-sale-price-text {
+  color: #59cd90;
+  font-weight: bold; }
+
+#upscale .storybook-add-to-cart-button {
+  background: #ff9b42; }
+  #upscale .storybook-add-to-cart-button:focus {
+    outline-color: #ffb675; }
+
+.sisma-footer {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; }
+  .sisma-footer .sisma-footer-info {
+    flex-grow: 1; }
+  .sisma-footer .sisma-footer-socials {
+    flex-grow: 0; }
+    .sisma-footer .sisma-footer-socials a {
+      filter: brightness(0) invert(1); }
+  .sisma-footer a {
+    color: inherit;
+    font-weight: 900; }
+  .sisma-footer .sisma-footer-col {
+    width: 25%; }
+    .sisma-footer .sisma-footer-col ul {
+      margin: 0; }
