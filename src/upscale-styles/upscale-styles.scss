@@ -61,6 +61,8 @@ body {
   color: #fff;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
 
   .sisma-footer-info {
     flex-grow:1;
@@ -80,9 +82,26 @@ body {
   }
 
   .sisma-footer-col{
-    width:25%;
-    ul {
-      margin: 0;
-    }
-  }    
+      width:25%;
+      font-size: 14px;
+      ul {
+        margin: 0;
+      }
+  }
+
+  #fourth { a {
+            text-decoration: none;
+            }
+           img {
+            filter: brightness(0) invert(1);
+            margin-right: 10px;
+           }
+  } 
+
+  #fifth {
+    font-size: 12px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+  } 
 }
