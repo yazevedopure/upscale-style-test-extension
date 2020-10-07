@@ -25,7 +25,7 @@
 
 body {
   background: #FFFFFF;
-  font-family: 'Gotham';
+  @include custom-font-family();
 }
 
 .selling-price {

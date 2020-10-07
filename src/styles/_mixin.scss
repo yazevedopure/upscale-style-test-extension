@@ -2,3 +2,7 @@
   color: $price-color;
   font-weight: bold;
 }
+
+@mixin custom-font-family () {
+  font-family: $font-family;
+}

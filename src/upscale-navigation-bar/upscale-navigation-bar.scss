@@ -5,7 +5,7 @@
         a, a:hover {
           background: transparent;
           text-transform: uppercase;
-          //@include button($background-color: transparent, $border-radius: 2px);
+          @include custom-font-family();
         }
       }
     }
