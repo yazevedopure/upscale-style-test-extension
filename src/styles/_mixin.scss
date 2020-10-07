@@ -1,4 +1,27 @@
+@use "sass:map";
 @mixin price () {
   color: $price-color;
   font-weight: bold;
+}
+
+@mixin tema ($templateid, $tema) {
+  upscale-template[data-templateid=#{$templateid}] {
+    .image-component-content-headline,
+    .image-component-content-subheadline,
+    .image-component-link-button
+    {
+      color: map.get($tema, "foreground");
+    }
+
+    .storybook-product-content-name,
+    .storybook-product-content-headline {
+      color: map.get($tema, "background");
+    }
+
+    .image-component-overlay,
+    .storybook-add-to-cart-button{
+      color: map.get($tema, "foreground");
+      background-color: map.get($tema, "background");
+    }
+  }
 }
