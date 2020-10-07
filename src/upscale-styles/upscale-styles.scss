@@ -11,7 +11,7 @@
   /* Legacy iOS */
 }
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham Bold';
   src: url('../../fonts/GothamBold.eot');
   /* IE9 Compat Modes */
   src: url('../../fonts/GothamBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -22,12 +22,15 @@
   /* Legacy iOS */
   font-weight:normal
 }
-
-body {
-  background: #FFFFFF;
+html, body {
   @include custom-font-family();
 }
-
+body {
+  background: #FFFFFF;
+}
+button {
+  @include custom-font-family();
+}
 .selling-price {
   @include price();
 }
@@ -51,10 +54,12 @@ body {
     }
   }
 
-  //.storybook-article-link-text-button {
-  //  background-color: $primary_color;
-  //  color: #FFFFFF;
+  //.image-component-content-headline, .image-component-content-subheadline, .image-component-link-button,
+  //.storybook-component-headline,  .storybook-component-subheadline,
+  //.storybook-category-link-text-button{
+  //  @include custom-font-family();
   //}
+
 }
 
 .sisma-footer {
