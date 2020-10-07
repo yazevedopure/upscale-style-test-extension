@@ -54,27 +54,8 @@ button {
     }
   }
 
-  //upscale-template[data-templateid="c2af5937-4368-4e4e-b08a-348718c2706d"] {
-  //  .image-component-content-headline,
-  //  .image-component-content-subheadline,
-  //  .image-component-link-button
-  //  {
-  //    color: $samurai-color;
-  //  }
-  //
-  //  .storybook-product-content-name,
-  //  .storybook-product-content-headline {
-  //    color: $samurai-bg;
-  //  }
-  //
-  //  .image-component-overlay,
-  //  .storybook-add-to-cart-button{
-  //    color: $samurai-color;
-  //    background-color: $samurai-bg;
-  //  }
-  //}
   @include tema(c2af5937-4368-4e4e-b08a-348718c2706d, $tema-samurai);
-  @include tema(ef7ea763-f407-4540-a85a-1bac4ef7b7b4, $tema-cotoneve);
+  //@include tema(ef7ea763-f407-4540-a85a-1bac4ef7b7b4, $tema-cotoneve);
 }
 
 .sisma-footer {
