@@ -23,13 +23,13 @@
   font-weight:normal
 }
 html, body {
-  @include custom-font-family();
+  font-family: $font-family;
 }
 body {
   background: #FFFFFF;
 }
 button {
-  @include custom-font-family();
+  font-family: $font-family;
 }
 .selling-price {
   @include price();
@@ -54,12 +54,11 @@ button {
     }
   }
 
-  //.image-component-content-headline, .image-component-content-subheadline, .image-component-link-button,
-  //.storybook-component-headline,  .storybook-component-subheadline,
-  //.storybook-category-link-text-button{
-  //  @include custom-font-family();
-  //}
-
+  upscale-template[data-template-id="c2af5937-4368-4e4e-b08a-348718c2706d"] {
+    upscale-image {
+      background: red;
+    }
+  }
 }
 
 .sisma-footer {
@@ -105,7 +104,7 @@ button {
 
   #fifth {
     font-size: 12px;
-    margin: 20px 0;
+    margin: 20px 0 0;
     text-align: center;
     width: 100%;
   } 

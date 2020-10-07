@@ -6,7 +6,6 @@
         a, a:hover {
           background: transparent;
           text-transform: uppercase;
-          @include custom-font-family();
         }
       }
     }
