@@ -32,7 +32,7 @@
   }
 
   .storybook-product-content-name, .storybook-product-content-headline {
-    @include headline();
+    //@include headline();
   }
 
   .storybook-article-content-background-overlay {
@@ -40,7 +40,7 @@
   }
 
   .storybook-article-headline {
-    @include headline();
+    //@include headline();
   }
 
 }
