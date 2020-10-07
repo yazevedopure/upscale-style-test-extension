@@ -55,8 +55,13 @@ button {
   }
 
   upscale-template[data-templateid="c2af5937-4368-4e4e-b08a-348718c2706d"] {
-    .image-component-content-headline {
+    .image-component-content-headline,
+    .image-component-content-subheadline{
       color: $samurai-color;
+    }
+
+    .image-component-overlay {
+      background-color: $samurai-bg;
     }
   }
 }
