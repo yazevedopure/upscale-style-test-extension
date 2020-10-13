@@ -1,6 +1,7 @@
 @import '../styles/style';
 :host {
 
+  display: none !important;
   background-color: #d5ecf5;
   border-bottom: 0;
   color: $primary_color;
