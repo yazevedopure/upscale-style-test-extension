@@ -117,7 +117,7 @@ upscale-template {
   display: flex;
   height: 100%;
 
-  div:first-of-type {
+  & > div:first-of-type {
     display: flex;
     flex-direction: column;
 
