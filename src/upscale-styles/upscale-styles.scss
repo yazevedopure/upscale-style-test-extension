@@ -108,18 +108,25 @@ button {
   } 
 }
 
-upscale-root {
-  display: flex;
-  flex-direction: column;
-}
-
 .router-outlet {
   flex: 1 0 auto;
 }
 
 
 upscale-template {
+  display: flex;
   height: 100%;
+
+  div:first-of-type {
+    display: flex;
+    flex-direction: column;
+
+    &:first-child {
+      flex: 1 0 auto;
+    }
+
+  }
+
 }
 
 upscale-content-slot:last-of-type {
