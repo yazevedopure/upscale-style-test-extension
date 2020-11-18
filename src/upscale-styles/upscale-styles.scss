@@ -24,6 +24,7 @@
 }
 html, body {
   font-family: $font-family;
+  height: 100%;
 }
 body {
   background: #FFFFFF;
@@ -105,4 +106,22 @@ button {
     text-align: center;
     width: 100%;
   } 
+}
+
+upscale-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.router-outlet {
+  flex: 1 0 auto;
+}
+
+
+upscale-template {
+  height: 100%;
+}
+
+upscale-content-slot:last-of-type {
+  justify-self: flex-end;
 }
