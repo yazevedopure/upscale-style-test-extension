@@ -3,5 +3,17 @@
 	position: static;
 	background: $primary_color;
 	box-shadow: none;
+
+	.header {
+		position: relative;
+	}
+
+	.header__bottom {
+		position: absolute;
+		left: 130px;
+		top: 0;
+		display: inline-block;
+	}
+
 }
 
