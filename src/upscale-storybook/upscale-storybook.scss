@@ -1,0 +1,25 @@
+.upscale-small,
+.upscale-extra-small {
+  :host {
+    .storybook-background {
+      padding: 0;
+    }
+  }
+}
+
+.upscale-medium {
+  :host {
+    .storybook-background {
+      padding: 0;
+    }
+  }
+}
+
+.upscale-large,
+.upscale-extra-large {
+  :host {
+    .storybook-background {
+      padding: 0;
+    }
+  }
+}
