@@ -2,14 +2,13 @@
 
 @mixin headline () {
   color: $primary_color;
-  font-family: Gotham;
-  font-weight: bold;
+  font-family: 'Gotham Bold';
   text-align: center;
 }
 
 @mixin headline_bg () {
   background-color: rgba(255, 255, 255, .8);
-  padding: .5em 0;
+  padding: 12px;
 }
 
 :host {
@@ -18,26 +17,31 @@
 
 #upscale :host {
 
-  font-family: Gotham;
+  //font-family: Gotham;
 
   .storybook-article-link-text-button {
-    font-family: Gotham;
+    //font-family: Gotham;
     background-color: $primary_color;
     color: #FFFFFF;
     font-weight: 900;
   }
 
-  .storybook-product-content-background-overlay {
+  .storybook-category-content-background-overlay,
+  .storybook-product-content-background-overlay,
+  .storybook-article-content-background-overlay
+  {
     @include headline_bg();
   }
 
-  .storybook-product-content-name, .storybook-product-content-headline {
-    //@include headline();
+  .storybook-category-content-name,
+  .storybook-product-content-name,
+  //.storybook-product-content-headline,
+  .storybook-article-content-name
+  {
+    @include headline();
   }
 
-  .storybook-article-content-background-overlay {
-    @include headline_bg();
-  }
+
 
   .storybook-article-headline {
     //@include headline();
