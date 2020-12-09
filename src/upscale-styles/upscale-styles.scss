@@ -54,7 +54,7 @@ button {
     }
   }
 
-  @include tema(c2af5937-4368-4e4e-b08a-348718c2706d, $tema-samurai);
+  //@include tema(c2af5937-4368-4e4e-b08a-348718c2706d, $tema-samurai);
   //@include tema(ef7ea763-f407-4540-a85a-1bac4ef7b7b4, $tema-cotoneve);
 }
 
@@ -107,27 +107,8 @@ button {
   } 
 }
 
-//.router-outlet {
-//  flex: 1 0 auto;
-//}
-//
-//
-//upscale-template {
-//  display: flex;
-//  height: 100%;
-//
-//  & > div:first-of-type {
-//    display: flex;
-//    flex-direction: column;
-//
-//    &:first-child {
-//      flex: 1 0 auto;
-//    }
-//
-//  }
-//
-//}
-//
-//upscale-content-slot:last-of-type {
-//  justify-self: flex-end;
-//}
+upscale-storybook + upscale-storybook {
+	.story-books {
+		margin-top: 1em !important;
+	}
+}

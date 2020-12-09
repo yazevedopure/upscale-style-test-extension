@@ -1,0 +1,31 @@
+/**
+  Stili css per la visualizzazione degli articoli
+ */
+.gallery__wrapper {
+  overflow: hidden;
+}
+
+.wp-caption {
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.aligncenter, .alignnone {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption-text {
+  position: inherit;
+  padding: 7px 5px;
+  font-style: italic;
+}
+
+.margin-auto {
+  margin: 0 auto;
+  display: block;
+}
