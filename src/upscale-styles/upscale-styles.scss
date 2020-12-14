@@ -56,6 +56,22 @@ button {
 
   //@include tema(c2af5937-4368-4e4e-b08a-348718c2706d, $tema-samurai);
   //@include tema(ef7ea763-f407-4540-a85a-1bac4ef7b7b4, $tema-cotoneve);
+
+  .storybook-slider-indicator-active, .storybook-slider-indicator-inactive {
+    border: 1px solid $primary_color !important;
+    width: $slider-indicator-size;
+    height: $slider-indicator-size !important;
+    flex-basis: $slider-indicator-size !important;
+    display: inline-block;
+    flex-grow: 0 !important;
+    border-radius: 100px;
+    margin: 0 1em;
+  }
+
+  .storybook-slider-indicator-active {
+    background-color: $primary_color;
+  }
+
 }
 
 .sisma-footer {
