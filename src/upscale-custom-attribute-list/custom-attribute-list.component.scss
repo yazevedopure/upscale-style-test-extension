@@ -1,0 +1,86 @@
+@import '~styles/helpers/_module';
+
+:host {
+	.html-container::ng-deep {
+		@include header-defaults;
+	}
+}
+
+.attribute-details {
+	width:100%;
+	box-sizing: border-box;
+
+	&__banner-headline {
+		display: flex;
+		justify-content: space-between;
+		font-weight: 500;
+		align-items: center;
+		box-sizing: border-box;
+		width: 100%;
+		height: 52px;
+		margin: 0 auto;
+		padding: 0 12px;
+		border-bottom: solid 1px $upscale-grey11;
+		@include base-font-size;
+		font-weight: 700;
+	}
+
+	&__body {
+		width: 100%;
+		padding: 12px;
+		box-sizing: border-box;
+		@include base-font-size;
+	}
+
+	&__body-list {
+		line-height: normal;
+/* sim1 color: black; */
+		padding-bottom: 10px;
+		line-height: 1.29;
+	}
+
+	&__body-html {
+		.html-container {
+			padding-bottom: 10px;
+/* sim1 	color: black; */
+			line-height: 1.29;
+			overflow: auto;
+/* sim1 */
+		color: #005c7b;
+		font-family: 'Gotham';
+/* sim1 	font-family: 'Roboto'; */	
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+
+em {
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	height: 8px;
+	width: 8px;
+}
+
+.up-false {
+	transform: rotate(45deg);
+	margin-bottom: 4px;
+}
+
+.up-true {
+	transform: rotate(-135deg);
+	margin-top: 4px;
+}
+
+:host{
+	&.card{
+		border: solid 1px $upscale-grey11;
+		margin-bottom: 10px;
+
+		.attribute-details {
+			&__banner-headline {
+				border-bottom: none;
+			}
+		}
+	}
+}
